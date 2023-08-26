@@ -33,7 +33,7 @@ body{
 }
 
 .qr-box .qr-img{
-    width: 450px;
+    max-width: 450px;
     border-radius: 50px;
     overflow: hidden;
 }
