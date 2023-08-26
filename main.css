@@ -39,7 +39,7 @@ body{
 }
 
 .qr-box .qr-img img{
-    width: 100%;
+    max-width: 450px;
     object-fit: cover;
 }
 
