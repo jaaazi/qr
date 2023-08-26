@@ -17,7 +17,8 @@ body{
 
 
 .qr-box{
-    width: 500px;
+    max-width: 450px;
+    min-width: 100px;
     min-height: 100hv;
 
     display: flex;
@@ -34,12 +35,13 @@ body{
 
 .qr-box .qr-img{
     max-width: 450px;
+    min-width: 100px;
     border-radius: 50px;
     overflow: hidden;
 }
 
 .qr-box .qr-img img{
-    max-width: 450px;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -53,4 +55,10 @@ body{
 
 .qr-box .qr-body p{
     padding: 10px 0;
+}
+
+@media screen and (max-width: 550px){
+    .qr-box {
+        width: 400px;
+    }
 }
